@@ -1,0 +1,29 @@
+# Build and Debug directories
+publish/ 
+bin/
+obj/
+.vs/
+.vscode/
+
+# Build outputs
+*.dll
+*.exe
+*.zip
+deploy.zip
+
+# IDE
+.idea/
+*.swp
+*.sln.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+packages/publish/
+**/bin/Debug/net10.0/
+**/bin/Release/net10.0/
+
+
